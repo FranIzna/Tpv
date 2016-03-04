@@ -88,12 +88,16 @@ CREATE TABLE IF NOT EXISTS `empleados` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `empleados`
+-- Volcado de datos para la tabla `empleados`ç
 --
 
+--------------------------------------------------------
+--****** si no estas logeado en index no puedes poner la pagina a la que quieres
+--****** ir en la url, ya que redirecciono automaticamente al index
+----------------------------------------------------
 INSERT INTO `empleados` (`id`, `nombre`, `pass`) VALUES
-(2, 'fenix', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220');
-
+(2, 'fran', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220');
+--- usuario: fran contraseña: 1234
 -- --------------------------------------------------------
 
 --
